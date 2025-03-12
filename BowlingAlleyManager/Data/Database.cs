@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
+using Dapper;
+using Microsoft.Data.Sqlite;
 
 namespace BowlingAlleyManager.Data
 {
@@ -12,14 +12,15 @@ namespace BowlingAlleyManager.Data
 
         public static void Initialize()
         {
-            using var connection = new SQLiteConnection(ConnectionString);
+            using var connection = new SqliteConnection(ConnectionString);
             connection.Open();
 
             string createTables = @"
                 CREATE TABLE IF NOT EXISTS Players (
                     PlayerID INTEGER PRIMARY KEY AUTOINCREMENT,
                     Name TEXT NOT NULL,
-                    Email TEXT UNIQUE NOT NULL
+                    Email TEXT UNIQUE NOT NULL,
+                    PhoneNr TEXT UNIQUE NOT NULL
                 );
 
                 CREATE TABLE IF NOT EXISTS Matches (
@@ -43,5 +44,7 @@ namespace BowlingAlleyManager.Data
 
             connection.Execute(createTables);
         }
+
+        public static IDbConnection GetConnection() => new SqliteConnection(ConnectionString);
     }
 }

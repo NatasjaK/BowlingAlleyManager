@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BowlingAlleyManager.Models
 {
-    class Match
+    public class Match
     {
         public int MatchID { get; set; }
         public List<Player> Players { get; set; }
