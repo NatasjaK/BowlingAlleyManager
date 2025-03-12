@@ -8,10 +8,10 @@ namespace BowlingAlleyManager.Models
 {
     class MatchParticipation
     {
-        public int MatchID { get; set; }
-        public int PlayerID { get; set; }
+        public long MatchID { get; set; }
+        public long PlayerID { get; set; }
 
-        public MatchParticipation(int matchId, int playerId)
+        public MatchParticipation(long matchId, long playerId)
         {
             MatchID = matchId;
             PlayerID = playerId;

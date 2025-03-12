@@ -8,7 +8,7 @@ namespace BowlingAlleyManager.Data
 {
     class Database
     {
-        private const string ConnectionString = "Data Source=bowlinghall.db;Version=3;";
+        private const string ConnectionString = "Data Source=bowlinghall.db;";
 
         public static void Initialize()
         {
@@ -36,11 +36,21 @@ namespace BowlingAlleyManager.Data
                 );
 
                 CREATE TABLE IF NOT EXISTS Results (
-                    MatchID INTEGER PRIMARY KEY,
-                    WinnerID INTEGER NOT NULL,
-                    FOREIGN KEY (MatchID) REFERENCES Matches(MatchID),
-                    FOREIGN KEY (WinnerID) REFERENCES Players(PlayerID)
-                );";
+        ResultID INTEGER PRIMARY KEY AUTOINCREMENT,
+        MatchID INTEGER NOT NULL,
+        PlayerID INTEGER NOT NULL,
+        Score INTEGER NOT NULL,
+        FOREIGN KEY (MatchID) REFERENCES Matches(MatchID),
+        FOREIGN KEY (PlayerID) REFERENCES Players(PlayerID)
+    );
+
+        CREATE TABLE IF NOT EXISTS Tournaments (
+        TournamentID INTEGER PRIMARY KEY AUTOINCREMENT,
+        Name TEXT NOT NULL,
+        StartDate TEXT NOT NULL,
+        EndDate TEXT NOT NULL
+    );
+        ";
 
             connection.Execute(createTables);
         }

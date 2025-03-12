@@ -8,12 +8,12 @@ namespace BowlingAlleyManager.Models
 {
     public class Match
     {
-        public int MatchID { get; set; }
+        public long MatchID { get; set; }
         public List<Player> Players { get; set; }
         public int Lane { get; set; }
         public Result? MatchResult { get; set; }
 
-        public Match(int id, List<Player> players, int lane)
+        public Match(long id, List<Player> players, int lane)
         {
             MatchID = id;
             Players = players;

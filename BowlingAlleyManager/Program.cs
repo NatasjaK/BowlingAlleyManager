@@ -8,6 +8,9 @@ class Program
 {
     static PlayerService playerService = new PlayerService();
     static MatchService matchService = new MatchService();
+    static ResultService resultService = new ResultService();
+    static TournamentService tournamentService = new TournamentService();
+
 
     static void Main()
     {
@@ -21,7 +24,11 @@ class Program
             Console.WriteLine("1. Register Player");
             Console.WriteLine("2. Show All Players");
             Console.WriteLine("3. Create Match");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Register Match Result");
+            Console.WriteLine("5. Create Tournament");
+            Console.WriteLine("6. Show Tournaments");
+            Console.WriteLine("7. Exit");
+
             Console.Write("Select an option: ");
 
             string choice = Console.ReadLine();
@@ -37,8 +44,18 @@ class Program
                     CreateMatch();
                     break;
                 case "4":
+                    RegisterMatchResult();
+                    break;
+                case "5":
+                    CreateTournament();
+                    break;
+                case "6":
+                    ShowTournaments();
+                    break;
+                case "7":
                     Console.WriteLine("Exiting...");
                     return;
+
                 default:
                     Console.WriteLine("Invalid choice. Try again.");
                     break;
@@ -99,7 +116,7 @@ class Program
         string[] input = Console.ReadLine().Split();
         foreach (string id in input)
         {
-            if (int.TryParse(id, out int playerID))
+            if (long.TryParse(id, out long playerID))
             {
                 var player = players.Find(p => p.PlayerID == playerID);
                 if (player != null)
@@ -117,4 +134,56 @@ class Program
 
         matchService.CreateMatch(selectedPlayers, lane);
     }
+
+    static void RegisterMatchResult()
+    {
+        Console.Write("Enter match ID: ");
+        long matchID = long.Parse(Console.ReadLine());  
+
+        Dictionary<long, int> playerScores = new Dictionary<long, int>();  
+
+        Console.WriteLine("Enter scores for each player:");
+        foreach (var player in playerService.GetAllPlayers())
+        {
+            Console.Write($"Score for {player.Name} (ID {player.PlayerID}): ");
+            int score = int.Parse(Console.ReadLine());  
+            playerScores[player.PlayerID] = score;
+        }
+
+        resultService.RegisterMatchResult(matchID, playerScores);
+    }
+
+    static void CreateTournament()
+    {
+        Console.Write("Enter tournament name: ");
+        string name = Console.ReadLine();
+
+        Console.Write("Enter start date (YYYY-MM-DD): ");
+        DateTime startDate = DateTime.Parse(Console.ReadLine());
+
+        Console.Write("Enter end date (YYYY-MM-DD): ");
+        DateTime endDate = DateTime.Parse(Console.ReadLine());
+
+        tournamentService.CreateTournament(name, startDate, endDate);
+    }
+
+    static void ShowTournaments()
+    {
+        var tournaments = tournamentService.GetAllTournaments();
+        if (tournaments.Count == 0)
+        {
+            Console.WriteLine("No tournaments available.");
+            return;
+        }
+
+        Console.WriteLine("\nTournaments:");
+        foreach (var tournament in tournaments)
+        {
+            Console.WriteLine($"- {tournament.Name} ({tournament.StartDate.ToShortDateString()} - {tournament.EndDate.ToShortDateString()})");
+        }
+    }
+
+
+
 }
+

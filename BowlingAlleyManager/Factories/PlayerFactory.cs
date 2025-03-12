@@ -10,9 +10,9 @@ namespace BowlingAlleyManager.Factories
 {
     class PlayerFactory
     {
-        public static Player CreatePlayer(string name, string email, string phoneNr)
+        public static Player CreatePlayer(long id, string name, string email, string phoneNr)
         {
-            return new Player (name, email, phoneNr);
+            return new Player (id, name, email, phoneNr);
         }
     }
 }

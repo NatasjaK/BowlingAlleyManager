@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BowlingAlleyManager.Models
 {
-    class Tournament
+    public class Tournament
     {
-        public int TournamentID { get; set; }
+        public long TournamentID { get; set; }
         public string Name { get; set; }
-        public List<Match> Matches { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public List<Player> Players { get; set; } = new List<Player>();
+        public List<Match> Matches { get; set; } = new List<Match>();
 
-        public Tournament(int id, string name)
+        public Tournament() { }
+
+        public Tournament(long id, string name, DateTime startDate, DateTime endDate)
         {
             TournamentID = id;
             Name = name;
-            Matches = new List<Match>();
+            StartDate = startDate;
+            EndDate = endDate;
         }
     }
 }
