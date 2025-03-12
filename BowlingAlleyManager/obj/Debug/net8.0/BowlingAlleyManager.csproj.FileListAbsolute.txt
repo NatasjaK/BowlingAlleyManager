@@ -1,0 +1,6 @@
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.csproj.AssemblyReference.cache
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.AssemblyInfoInputs.cache
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.AssemblyInfo.cs
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.csproj.CoreCompileInputs.cache
+C:\Users\natas\source\repos\BowlingAlleyManager\BowlingAlleyManager\obj\Debug\net8.0\BowlingAlleyManager.sourcelink.json
