@@ -1,4 +1,4 @@
-# 🎳 BowlingAlleyManager  
+# 🎳 Bowling Alley Manager  
 
 A simple C# console app for managing a bowling hall with players, matches, and tournaments.  
 
