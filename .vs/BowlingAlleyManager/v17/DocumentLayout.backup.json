@@ -94,9 +94,9 @@
               "Title": "GameFacade.cs",
               "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Facades\\GameFacade.cs",
               "RelativeDocumentMoniker": "BowlingAlleyManager\\Facades\\GameFacade.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Facades\\GameFacade.cs*",
-              "RelativeToolTip": "BowlingAlleyManager\\Facades\\GameFacade.cs*",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAkwMUAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAswNkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T10:29:52.065Z",
               "EditorCaption": ""
@@ -107,12 +107,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
               "RelativeDocumentMoniker": "BowlingAlleyManager\\Program.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs*",
-              "RelativeToolTip": "BowlingAlleyManager\\Program.cs*",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:20:22.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T10:20:22.442Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\ResultService.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAArwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:37:12.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T21:37:12.352Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\TournamentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:40:38.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T22:40:38.397Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IMatchService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:55:49.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:55:49.925Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IResultService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:56:00.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:56:00.029Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Data\\Database.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:08:43.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T16:08:43.897Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\PlayerService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:35:01.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T20:35:01.019Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IPlayerService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAIwAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:33:40.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:33:40.724Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\MatchService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:17:45.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T21:17:45.688Z"
             },
             {
               "$type": "Document",
@@ -228,12 +219,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\ITournamentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:56:11.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-03-14T09:56:11.62Z"
             },
             {
               "$type": "Document",
@@ -245,8 +231,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Factories\\MatchFactory..cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:19:54.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T21:19:54.212Z"
             },
             {
               "$type": "Document",
@@ -258,8 +243,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\MatchParticipation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:21:14.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:21:14.694Z"
             },
             {
               "$type": "Document",
@@ -271,8 +255,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\Match.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:04:52.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:04:52.727Z"
             },
             {
               "$type": "Document",
@@ -284,8 +267,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\Player.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAWwA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:04:36.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:04:36.29Z"
             },
             {
               "$type": "Document",
@@ -297,8 +279,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\Tournament.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:22:51.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:22:51.92Z"
             },
             {
               "$type": "Document",
@@ -310,8 +291,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\Result.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:45:40.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:45:40.604Z"
             },
             {
               "$type": "Document",
@@ -323,8 +303,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Factories\\PlayerFactory.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:58:36.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T13:58:36.093Z"
             },
             {
               "$type": "Document",
@@ -336,8 +315,7 @@
               "RelativeToolTip": "BowlingAlleyManager\\Models\\Lane.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:04:57.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T14:04:57.441Z"
             }
           ]
         }

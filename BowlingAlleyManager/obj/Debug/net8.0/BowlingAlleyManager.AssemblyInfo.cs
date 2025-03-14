@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlingAlleyManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2191123925b290cde1bd2996683606b439aedcf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3703001db330bb5f3c01def8900f45eb93b8c3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlingAlleyManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlingAlleyManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

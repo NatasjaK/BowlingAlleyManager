@@ -141,22 +141,19 @@ namespace BowlingAlleyManager.Facades
 
             List<Player> selectedPlayers = new List<Player>();
 
-            Console.WriteLine("Select players by entering their ID (comma-separated, e.g. 1,2,3):");
-            foreach (var player in players)
+            Console.WriteLine("Select players by entering their numbers (comma-separated, e.g. 1,2,3):");
+
+            for (int i = 0; i < players.Count; i++)
             {
-                Console.WriteLine($"{player.PlayerID}. {player.Name}");
+                Console.WriteLine($"{i + 1}. {players[i].Name}");
             }
 
             string[] input = Console.ReadLine().Split(',');
             foreach (string id in input)
             {
-                if (long.TryParse(id.Trim(), out long playerID))
+                if (int.TryParse(id.Trim(), out int playerIndex) && playerIndex > 0 && playerIndex <= players.Count)
                 {
-                    var player = players.Find(p => p.PlayerID == playerID);
-                    if (player != null)
-                    {
-                        selectedPlayers.Add(player);
-                    }
+                    selectedPlayers.Add(players[playerIndex - 1]);
                 }
             }
 
@@ -167,21 +164,37 @@ namespace BowlingAlleyManager.Facades
             }
 
             _matchService.CreateMatch(selectedPlayers, lane);
+            Console.WriteLine($"Match created on lane {lane} with {selectedPlayers.Count} players.");
         }
+
 
         private void RegisterMatchResult()
         {
-            Console.Write("Enter match ID: ");
-            if (!long.TryParse(Console.ReadLine(), out long matchID))
+            var matches = _matchService.GetAllMatches();
+            if (matches.Count == 0)
             {
-                Console.WriteLine("Invalid match ID. Please enter a valid number.");
+                Console.WriteLine("No matches available.");
                 return;
             }
 
+            Console.WriteLine("Select a match by entering its number:");
+            for (int i = 0; i < matches.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. Match {matches[i].MatchID} on lane {matches[i].Lane}");
+            }
+
+            if (!int.TryParse(Console.ReadLine(), out int matchIndex) || matchIndex < 1 || matchIndex > matches.Count)
+            {
+                Console.WriteLine("Invalid match selection.");
+                return;
+            }
+
+            long matchID = matches[matchIndex - 1].MatchID;
             var players = _matchService.GetPlayersInMatch(matchID);
+
             if (players.Count == 0)
             {
-                Console.WriteLine($"No players found for Match {matchID}. Please enter a valid match ID.");
+                Console.WriteLine($"No players found for Match {matchID}.");
                 return;
             }
 
@@ -200,6 +213,7 @@ namespace BowlingAlleyManager.Facades
             }
 
             _resultService.RegisterMatchResult(matchID, playerScores);
+            Console.WriteLine($"Match {matchID} results recorded!");
         }
 
 
