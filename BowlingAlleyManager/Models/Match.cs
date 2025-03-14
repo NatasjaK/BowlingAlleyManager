@@ -12,6 +12,12 @@ namespace BowlingAlleyManager.Models
         public List<Player> Players { get; set; }
         public int Lane { get; set; }
         public Result? MatchResult { get; set; }
+        public long? WinnerID { get; set; }
+
+        public Match()
+        {
+            Players = new List<Player>(); 
+        }
 
         public Match(long id, List<Player> players, int lane)
         {
@@ -19,6 +25,7 @@ namespace BowlingAlleyManager.Models
             Players = players;
             Lane = lane;
             MatchResult = null;
+            WinnerID = null;
         }
     }
 }

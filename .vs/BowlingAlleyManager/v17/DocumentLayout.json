@@ -3,36 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\facades\\gamefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\facades\\gamefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\matchparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\matchparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\interfaces\\iresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\interfaces\\iresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\interfaces\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\interfaces\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\interfaces\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\interfaces\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\services\\interfaces\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\services\\interfaces\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\factories\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\factories\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\matchparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\matchparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\factories\\matchfactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\factories\\matchfactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\factories\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\factories\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|c:\\users\\natas\\source\\repos\\bowlingalleymanager\\bowlingalleymanager\\models\\lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232DE32B-F1DA-49C0-AE59-6F48CD0EA519}|BowlingAlleyManager\\BowlingAlleyManager.csproj|solutionrelative:bowlingalleymanager\\models\\lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,45 +91,244 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Result.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Result.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Result.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Models\\Result.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Title": "GameFacade.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Facades\\GameFacade.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAkwP4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:45:40.604Z",
+              "WhenOpened": "2025-03-14T10:29:52.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tournament.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Tournament.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Tournament.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Tournament.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Models\\Tournament.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Program.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:22:51.92Z",
+              "WhenOpened": "2025-03-12T10:20:22.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ResultService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\ResultService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\ResultService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\ResultService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\ResultService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAArwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:37:12.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TournamentService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\TournamentService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\TournamentService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\TournamentService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\TournamentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:40:38.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMatchService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IMatchService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\Interfaces\\IMatchService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IMatchService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IMatchService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:55:49.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IResultService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IResultService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\Interfaces\\IResultService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IResultService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IResultService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:56:00.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Data\\Database.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Data\\Database.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Data\\Database.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Data\\Database.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:08:43.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\PlayerService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\PlayerService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:35:01.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IPlayerService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\Interfaces\\IPlayerService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\IPlayerService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\IPlayerService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:33:40.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\MatchService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\MatchService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\MatchService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:17:45.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITournamentService.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\ITournamentService.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Services\\Interfaces\\ITournamentService.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Services\\Interfaces\\ITournamentService.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Services\\Interfaces\\ITournamentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:56:11.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MatchFactory..cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\MatchFactory..cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Factories\\MatchFactory..cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\MatchFactory..cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Factories\\MatchFactory..cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:19:54.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MatchParticipation.cs",
               "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\MatchParticipation.cs",
               "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\MatchParticipation.cs",
               "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\MatchParticipation.cs",
               "RelativeToolTip": "BowlingAlleyManager\\Models\\MatchParticipation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T14:21:14.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Match.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Models\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:04:52.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Player.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Models\\Player.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:04:36.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Tournament.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Tournament.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Tournament.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Models\\Tournament.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:22:51.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Result.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Result.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Models\\Result.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:45:40.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\PlayerFactory.cs",
+              "RelativeDocumentMoniker": "BowlingAlleyManager\\Factories\\PlayerFactory.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\PlayerFactory.cs",
+              "RelativeToolTip": "BowlingAlleyManager\\Factories\\PlayerFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:58:36.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Lane.cs",
               "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Lane.cs",
               "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Lane.cs",
@@ -94,58 +337,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T14:04:57.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Match.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Match.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Match.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Match.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Models\\Match.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:04:52.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Models\\Player.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Models\\Player.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:04:36.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerFactory.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\PlayerFactory.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Factories\\PlayerFactory.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Factories\\PlayerFactory.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Factories\\PlayerFactory.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAhwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:58:36.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
-              "RelativeDocumentMoniker": "BowlingAlleyManager\\Program.cs",
-              "ToolTip": "C:\\Users\\natas\\source\\repos\\BowlingAlleyManager\\BowlingAlleyManager\\Program.cs",
-              "RelativeToolTip": "BowlingAlleyManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:20:22.442Z",
               "EditorCaption": ""
             }
           ]

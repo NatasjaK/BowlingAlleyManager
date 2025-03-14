@@ -1,19 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using Dapper;
 using Microsoft.Data.Sqlite;
 
 namespace BowlingAlleyManager.Data
 {
-    class Database
+    /// <summary>
+    /// Database class responsible for initializing tables.
+    /// Uses Dependency Injection for handling connections.
+    /// </summary>
+    public class Database
     {
-        private const string ConnectionString = "Data Source=bowlinghall.db;";
+        private readonly IDbConnection _connection;
 
-        public static void Initialize()
+        // Inject the database connection via the constructor
+        public Database(IDbConnection connection)
         {
-            using var connection = new SqliteConnection(ConnectionString);
-            connection.Open();
+            _connection = connection;
+        }
+
+        /// <summary>
+        /// Initializes the database by creating required tables.
+        /// </summary>
+        public void Initialize()
+        {
+            _connection.Open();
 
             string createTables = @"
                 CREATE TABLE IF NOT EXISTS Players (
@@ -25,7 +36,9 @@ namespace BowlingAlleyManager.Data
 
                 CREATE TABLE IF NOT EXISTS Matches (
                     MatchID INTEGER PRIMARY KEY AUTOINCREMENT,
-                    Lane INTEGER NOT NULL
+                    Lane INTEGER NOT NULL,
+                    WinnerID INTEGER NULL,
+                    FOREIGN KEY (WinnerID) REFERENCES Players(PlayerID)
                 );
 
                 CREATE TABLE IF NOT EXISTS MatchParticipation (
@@ -36,25 +49,25 @@ namespace BowlingAlleyManager.Data
                 );
 
                 CREATE TABLE IF NOT EXISTS Results (
-        ResultID INTEGER PRIMARY KEY AUTOINCREMENT,
-        MatchID INTEGER NOT NULL,
-        PlayerID INTEGER NOT NULL,
-        Score INTEGER NOT NULL,
-        FOREIGN KEY (MatchID) REFERENCES Matches(MatchID),
-        FOREIGN KEY (PlayerID) REFERENCES Players(PlayerID)
-    );
+                    ResultID INTEGER PRIMARY KEY AUTOINCREMENT,
+                    MatchID INTEGER NOT NULL,
+                    PlayerID INTEGER NOT NULL,
+                    Score INTEGER NOT NULL,
+                    FOREIGN KEY (MatchID) REFERENCES Matches(MatchID),
+                    FOREIGN KEY (PlayerID) REFERENCES Players(PlayerID)
+                );
 
-        CREATE TABLE IF NOT EXISTS Tournaments (
-        TournamentID INTEGER PRIMARY KEY AUTOINCREMENT,
-        Name TEXT NOT NULL,
-        StartDate TEXT NOT NULL,
-        EndDate TEXT NOT NULL
-    );
-        ";
+                CREATE TABLE IF NOT EXISTS Tournaments (
+                    TournamentID INTEGER PRIMARY KEY AUTOINCREMENT,
+                    Name TEXT NOT NULL,
+                    StartDate TEXT NOT NULL,
+                    EndDate TEXT NOT NULL,
+                    WinnerID INTEGER NULL,
+                    FOREIGN KEY (WinnerID) REFERENCES Players(PlayerID)
+                );
+            ";
 
-            connection.Execute(createTables);
+            _connection.Execute(createTables);
         }
-
-        public static IDbConnection GetConnection() => new SqliteConnection(ConnectionString);
     }
 }

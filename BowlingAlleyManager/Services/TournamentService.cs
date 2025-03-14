@@ -5,26 +5,29 @@ using Dapper;
 using Microsoft.Data.Sqlite;
 using BowlingAlleyManager.Models;
 using BowlingAlleyManager.Data;
+using BowlingAlleyManager.Services.Interfaces;
 
 namespace BowlingAlleyManager.Services
 {
-    public class TournamentService
+    public class TournamentService : ITournamentService
     {
-        private const string ConnectionString = "Data Source=bowlinghall.db";
+        private readonly IDbConnection _dbConnection;
+
+        // Constructor with dependency injection
+        public TournamentService(IDbConnection dbConnection)
+        {
+            _dbConnection = dbConnection;
+        }
 
         public void CreateTournament(string name, DateTime startDate, DateTime endDate)
         {
-            using var connection = Database.GetConnection();
             string insertTournament = "INSERT INTO Tournaments (Name, StartDate, EndDate) VALUES (@Name, @StartDate, @EndDate);";
-            connection.Execute(insertTournament, new { Name = name, StartDate = startDate, EndDate = endDate });
-
-            Console.WriteLine($"Tournament '{name}' created from {startDate.ToShortDateString()} to {endDate.ToShortDateString()}.");
+            _dbConnection.Execute(insertTournament, new { Name = name, StartDate = startDate, EndDate = endDate });
         }
 
         public List<Tournament> GetAllTournaments()
         {
-            using var connection = Database.GetConnection();
-            return connection.Query<Tournament>("SELECT * FROM Tournaments").AsList();
+            return _dbConnection.Query<Tournament>("SELECT * FROM Tournaments").AsList();
         }
     }
 }

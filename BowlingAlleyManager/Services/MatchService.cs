@@ -6,24 +6,29 @@ using Microsoft.Data.Sqlite;
 using BowlingAlleyManager.Models;
 using BowlingAlleyManager.Factories;
 using BowlingAlleyManager.Data;
+using BowlingAlleyManager.Services.Interfaces;
 
 namespace BowlingAlleyManager.Services
 {
-    public class MatchService
+    public class MatchService : IMatchService
     {
-        private const string ConnectionString = "Data Source=bowlinghall.db";
+        private readonly IDbConnection _dbConnection;
+
+        // Constructor with dependency injection
+        public MatchService(IDbConnection dbConnection)
+        {
+            _dbConnection = dbConnection;
+        }
 
         public void CreateMatch(List<Player> players, int lane)
         {
-            using var connection = Database.GetConnection();
-
             string insertMatch = "INSERT INTO Matches (Lane) VALUES (@Lane); SELECT last_insert_rowid();";
-            int matchID = connection.ExecuteScalar<int>(insertMatch, new { Lane = lane });
+            int matchID = _dbConnection.ExecuteScalar<int>(insertMatch, new { Lane = lane });
 
             foreach (var player in players)
             {
                 string insertParticipation = "INSERT INTO MatchParticipation (MatchID, PlayerID) VALUES (@MatchID, @PlayerID)";
-                connection.Execute(insertParticipation, new { MatchID = matchID, PlayerID = player.PlayerID });
+                _dbConnection.Execute(insertParticipation, new { MatchID = matchID, PlayerID = player.PlayerID });
             }
 
             Console.WriteLine($"Match {matchID} created on lane {lane} with {players.Count} players.");
@@ -31,9 +36,19 @@ namespace BowlingAlleyManager.Services
 
         public List<Match> GetAllMatches()
         {
-            using var connection = Database.GetConnection();
-            var matches = connection.Query<Match>("SELECT * FROM Matches").AsList();
-            return matches;
+            return _dbConnection.Query<Match>("SELECT * FROM Matches").AsList();
+        }
+
+        public List<Player> GetPlayersInMatch(long matchID)
+        {
+            string query = @"
+            SELECT Players.PlayerID, Players.Name, Players.Email, Players.PhoneNr
+            FROM MatchParticipation
+            JOIN Players ON MatchParticipation.PlayerID = Players.PlayerID
+            WHERE MatchParticipation.MatchID = @MatchID;
+            ";
+
+            return _dbConnection.Query<Player>(query, new { MatchID = matchID }).ToList();
         }
     }
 }
