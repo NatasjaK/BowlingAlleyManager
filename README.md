@@ -1,15 +1,18 @@
 # 🎳 Bowling Alley Manager  
 
-A simple C# console app for managing a bowling hall with players, matches, and tournaments.  
+A structured C# console application for managing a bowling hall, including players, matches, and tournaments.  
 
 ## 📌 Features  
-- Register players  
-- Create matches & record results  
-- Manage tournaments  
-- SQLite database for persistence  
+- Register players with unique email and phone numbers  
+- Create matches and record results  
+- Manage tournaments with start and end dates  
+- Automatically determine match winners  
+- Uses **GameFacade** for better code organization  
 
 ## 🛠️ Technologies  
-- C# (.NET)  
-- SQLite (Dapper)  
-- Design Patterns: Factory & Singleton  
-
+- **C# (.NET)** – Core programming language  
+- **SQLite (Dapper)** – Lightweight database for persistence  
+- **Dependency Injection (DI)** – Manages services efficiently  
+- **Design Patterns:**  
+  - **Facade Pattern** – Simplifies interaction between services  
+  - **Repository Pattern** (via services) – Handles database access
